@@ -1,0 +1,194 @@
+/*--General Content--*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Avenir';
+}
+
+body {
+    background-color: #e0dae3;
+}
+
+.photo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para {
+    font-size: 22px;
+}
+
+.sh {
+    font-size: 42px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+}
+
+/*--Nav bar--*/
+
+#nav-wrap ul {
+    padding: 0;
+}
+
+#nav-wrap {
+    font: 12px 'Avenir-heavy';
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    position: fixed;
+    background-color: #292929; 
+}
+
+ul#nav {
+    text-align: center;
+}
+
+ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+}
+
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul#nav li a:hover { 
+    color: #ff87e9 ;
+}
+
+/*--Header--*/
+
+header {
+    height: 900px;
+    background:#161415 url(https://wallpapercave.com/wp/wp7899994.jpg) no-repeat top fixed;
+    background-size: cover;
+}
+
+.main-header {
+    text-align: center;
+    height: 900px;
+    padding-top: 200px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: initial;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    padding-bottom: 20px;
+}
+
+/*--Summary--*/
+
+.summary {
+    padding: 70px 20% 66px;
+    background-color: #292929;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.summary p {
+    color: #6e6e6e;
+    font-weight: initial;
+    font-size: 20px;
+}
+
+#links {
+    padding-top: 30px;
+    word-spacing: 50px;
+    text-transform: uppercase;
+}
+
+.links a {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+.links a:hover { 
+    color: #ff87e9 ;
+}
+
+
+/*--Homepage--*/
+
+.main-para {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 15%;
+}
+
+
+/*--Biography--*/
+
+.bio-photo {
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bio-para {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+}
+
+.bio-sh {
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+/*-- Discography--*/
+
+.disc-sh {
+    font-size: 42px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+}
+
+.disc-photo {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin: 40px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.disc {
+    display: inline-block;
+    margin-top: 200px;
+    padding-left: 25%;  
+}
+
+.disc-desc {
+    float: right;
+    padding-bottom: 30px;
+}
+
+/*--Footer--*/
+
+footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #161616;
+    color: #fff;
+}
