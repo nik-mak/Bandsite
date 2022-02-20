@@ -232,3 +232,27 @@ footer{
     background-color: #161616;
     color: #fff;
 }
+
+/* Flexbox */
+
+.flex {
+    justify-content: center;
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+
+.width {
+    width: 50%;
+}
+
+.flex-img {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.flex-photo {
+    max-width: 300px;
+}
