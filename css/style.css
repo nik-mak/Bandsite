@@ -238,7 +238,7 @@ footer{
 .flex {
     justify-content: center;
     display: flex;
-    padding: 5%;
+    padding: 10%;
     flex-wrap: wrap;
 }
 
