@@ -135,18 +135,15 @@ h1 {
 /*--Biography--*/
 
 .bio-photo {
-    max-width: 400px;
-    max-height: 400px;
+   max-height: 100%;
+   max-width: auto;
     display: block;
-    padding-bottom: 30px;
-    border-radius: 10%;
 }
 
 .bio-para {
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     color: #6e6e6e;
 }
 
@@ -162,7 +159,7 @@ h1 {
     font-size: 42px;
     margin-bottom: 30px;
     color: #6e6e6e;
-    padding-left: 40px;
+    text-align: center;
 }
 
 .disc-photo {
@@ -175,6 +172,8 @@ h1 {
     display: inline-block;
     margin-top: 200px;
 }
+
+/*--Grid--*/
 
 
 .grid {
@@ -221,6 +220,9 @@ h1 {
 ol.para {
     list-style: none;
     color: #6e6e6e;
+    padding-left: 10%;
+    padding-right: 10%;
+
 }
 
 /*--Footer--*/
@@ -250,7 +252,8 @@ footer{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-photo {
